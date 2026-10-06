@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>أعمال موشن جرافيك | جابر الفيفي</title>
-<meta name="description" content="نماذج أعمال موشن جرافيك — جابر الفيفي">
-<meta property="og:title" content="أعمال موشن جرافيك | جابر الفيفي">
+<title>أعمال جابر الفيفي | موشن جرافيك وثيمات سلة</title>
+<meta name="description" content="نماذج أعمال موشن جرافيك وثيمات سلة — جابر الفيفي">
+<meta property="og:title" content="أعمال جابر الفيفي | موشن جرافيك وثيمات سلة">
 <meta property="og:image" content="videos/SaudiEconomy-cover.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
@@ -58,6 +58,23 @@
     border: 1px solid var(--line);
     color: var(--turq);
   }
+  .section-title {
+    margin: 64px 0 24px;
+    font-size: clamp(26px, 4vw, 36px);
+    font-weight: 900;
+    text-align: center;
+  }
+  .card img { display: block; width: 100%; }
+  .card a { display: block; }
+  .thumbs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    padding: 6px;
+    background: rgba(0,0,0,0.25);
+  }
+  .thumbs img { border-radius: 8px; aspect-ratio: 16 / 9; object-fit: cover; transition: opacity .2s; }
+  .thumbs a:hover img { opacity: .75; }
   footer { text-align: center; margin-top: 48px; color: var(--muted); }
   footer a { color: var(--turq); text-decoration: none; font-weight: 700; }
 </style>
@@ -65,9 +82,11 @@
 <body>
 <main>
   <header>
-    <h1>أعمال موشن جرافيك</h1>
-    <p>تصميم وإخراج: جابر الفيفي</p>
+    <h1>أعمال جابر الفيفي</h1>
+    <p>موشن جرافيك · ثيمات سلة</p>
   </header>
+
+  <h2 class="section-title" id="motion">موشن جرافيك</h2>
 
   <section class="grid">
     <article class="card">
@@ -89,6 +108,39 @@
         <h2>إعلان مقهى + فيديو تعريفي بالخدمات</h2>
         <p>إعلان لمقهى خيالي (كوفي سَحَر) يتبعه فيديو تعريفي بخدمات الموشن جرافيك، مع مؤثرات صوتية متزامنة.</p>
         <div class="tags"><span>65 ثانية</span><span>إعلان</span><span>Full HD</span></div>
+      </div>
+    </article>
+  </section>
+
+  <h2 class="section-title" id="themes">ثيمات سلة</h2>
+  <section class="grid">
+    <article class="card">
+      <a href="themes/majeste/majeste-1.png" target="_blank"><img class="hero" src="themes/majeste/majeste-1.png" alt="ثيم ماجيستي" loading="lazy"></a>
+      <div class="thumbs">
+        <a href="themes/majeste/majeste-2.png" target="_blank"><img src="themes/majeste/majeste-2.png" alt="الواجهة الرئيسية" loading="lazy"></a>
+        <a href="themes/majeste/majeste-3.png" target="_blank"><img src="themes/majeste/majeste-3.png" alt="تجربة الجوال" loading="lazy"></a>
+        <a href="themes/majeste/majeste-4.png" target="_blank"><img src="themes/majeste/majeste-4.png" alt="تسوّق الإطلالة" loading="lazy"></a>
+        <a href="themes/majeste/majeste-5.png" target="_blank"><img src="themes/majeste/majeste-5.png" alt="المميزات" loading="lazy"></a>
+      </div>
+      <div class="info">
+        <h2>Majesté · ماجيستي</h2>
+        <p>ثيم أزياء فاخر للرجال والنساء: تسوّق من المقاطع، تسوّق الإطلالة، وضع ليلي، عربي وإنجليزي، و11 قسماً تتحكم بها من لوحة سلة.</p>
+        <div class="tags"><span>أزياء</span><span>وضع ليلي</span><span>عربي · English</span></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a href="themes/onyx/onyx-1.png" target="_blank"><img class="hero" src="themes/onyx/onyx-1.png" alt="ثيم أونكس" loading="lazy"></a>
+      <div class="thumbs">
+        <a href="themes/onyx/onyx-2.png" target="_blank"><img src="themes/onyx/onyx-2.png" alt="الأكثر مبيعاً" loading="lazy"></a>
+        <a href="themes/onyx/onyx-3.png" target="_blank"><img src="themes/onyx/onyx-3.png" alt="تجربة الجوال" loading="lazy"></a>
+        <a href="themes/onyx/onyx-4.png" target="_blank"><img src="themes/onyx/onyx-4.png" alt="الشحن المباشر" loading="lazy"></a>
+        <a href="themes/onyx/onyx-5.png" target="_blank"><img src="themes/onyx/onyx-5.png" alt="المميزات" loading="lazy"></a>
+      </div>
+      <div class="info">
+        <h2>ONYX · أونكس</h2>
+        <p>ثيم البطاقات الرقمية والألعاب: بطاقات ثلاثية الأبعاد، شحن مباشر بمعرّف اللاعب، عضويات ولاء، وتسليم فوري.</p>
+        <div class="tags"><span>بطاقات رقمية</span><span>ألعاب</span><span>داكن وفاتح</span></div>
       </div>
     </article>
   </section>
